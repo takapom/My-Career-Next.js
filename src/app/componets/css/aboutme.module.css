@@ -8,6 +8,7 @@
   }
 
   .icon_text{
+    list-style: none;
     margin-top: 10px; /* 画像と文字の間隔を調整 */
     font-size: 16px;
     color: #333;

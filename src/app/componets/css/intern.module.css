@@ -1,0 +1,60 @@
+.cardSet {
+    margin-top: 2rem; /* 上部に余白を追加 */
+  }
+  
+
+.cardmain{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card {
+    width: 70%;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 20px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .header {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .duration {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .body {
+    padding: 16px;
+  }
+  
+  .body h4 {
+    margin: 0 0 8px 0;
+    font-size: 1.2rem;
+    color: #fbc531; /* アクセントカラー */
+  }
+  
+  .body p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

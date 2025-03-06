@@ -7,6 +7,7 @@ import styles from "./page.module.css"
 import Main from './componets/Main';
 import Aboutme from './componets/Aboutme';
 import Footer from './componets/Footer';
+import InternshipCard from './componets/InternshipCard';
 
 //フレームワークのインポート
 import { DiReact } from "react-icons/di";
@@ -38,6 +39,7 @@ export default function Home(){
        <div  className={styles.icons}><SiNextdotjs  size={80} title='Nextjs'/><span>Next.js</span></div>
       </div>
     </div>
+    <InternshipCard />
     <Footer />
     </div>
   )
