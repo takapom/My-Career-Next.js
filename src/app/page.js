@@ -1,4 +1,5 @@
 "use client"
+
 import { useEffect } from 'react';
 import Navbar from './componets/Navbar';
 import styles from "./page.module.css"
@@ -17,7 +18,7 @@ import { SiNextdotjs } from "react-icons/si";
 
 
 
-export default function Main(){
+export default function Home(){
   useEffect(() => {
     // クライアント側でのみ Bootstrap の JS を動的に読み込む
     import('bootstrap/dist/js/bootstrap.bundle.min.js');
