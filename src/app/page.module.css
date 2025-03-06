@@ -1,0 +1,42 @@
+.boxcontainer {
+    background-color: #e0c3fc;
+    max-width: 800px;
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .icons span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1.3rem;
+  }
+  
+  /* 画面幅が600px以下の場合、余白やサイズを調整 */
+  @media (max-width: 600px) {
+    .boxcontainer {
+      padding: 10px;
+    }
+    .icon {
+      gap: 10px;
+    }
+  }
+  
