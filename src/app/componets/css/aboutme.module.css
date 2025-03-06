@@ -1,0 +1,15 @@
+.icon {
+    display: flex;
+    justify-content: center; /* 横方向（中央揃え） */
+    align-items: center; /* 縦方向（中央揃え・オプション） */
+    width: 100%; /* 親要素を横いっぱいにする */
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .icon_text{
+    margin-top: 10px; /* 画像と文字の間隔を調整 */
+    font-size: 16px;
+    color: #333;
+  }
+  

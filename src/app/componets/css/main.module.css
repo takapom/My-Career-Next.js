@@ -1,0 +1,28 @@
+.container{
+    background-color: #e0c3fc;
+    max-width: 600px;
+    margin: 20px auto;
+    width: 70%;
+    padding: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 5%;
+    white-space: nowrap;
+}
+
+.property{
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    padding: 7px;
+}

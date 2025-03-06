@@ -1,8 +1,9 @@
 .boxcontainer {
+  margin-top: 40px;
     background-color: #e0c3fc;
     max-width: 800px;
     width: 70%;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;

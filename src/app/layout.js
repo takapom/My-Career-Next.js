@@ -2,6 +2,7 @@ import Script from 'next/script';
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import "./global.css"
+import Navbar from './componets/Navbar';
 
 
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-bs-theme="auto">
       <body>
+      <Navbar />
         {children}
       </body>
     </html>
