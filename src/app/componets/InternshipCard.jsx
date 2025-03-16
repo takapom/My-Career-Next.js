@@ -14,12 +14,19 @@ export default function InternshipCard() {
           <span className={styles.duration}>インターン</span>
         </div>
         <div className={styles.body}>
-          <h4>不動産業界のDX推進</h4>
+          <h4>不動産のマイソクシステム開発</h4>
+          <div className={styles.checkbutton}>
           <p>
             <Link href="https://iimon.co.jp/">
             Check
             </Link>
           </p>
+          <p>
+            <Link href="https://www.zyyx.jp/">
+            vlog
+            </Link>
+          </p>
+          </div>
         </div>
         </div>
         </div>
@@ -32,11 +39,18 @@ export default function InternshipCard() {
         </div>
         <div className={styles.body}>
           <h4>Webアプリケーション開発</h4>
+          <div className={styles.checkbutton}>
           <p>
             <Link href="https://www.zyyx.jp/">
             Check
             </Link>
           </p>
+          <p>
+            <Link href="https://www.zyyx.jp/">
+            vlog
+            </Link>
+          </p>
+          </div>
         </div>
         </div>
         </div>

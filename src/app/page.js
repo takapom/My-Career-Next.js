@@ -32,11 +32,11 @@ export default function Home(){
     <div className={styles.boxcontainer}>
     <h2 className="text-3xl font-semibold text-black mb-4 font-bold">Skills</h2>
       <div className={styles.icon}>
-       <div className={styles.icons}><DiReact size={80} title="React"/><span>React</span></div>
-       <div className={styles.icons}><FaPython size={80} title='Python'/><span>Python</span></div>
-       <div  className={styles.icons}><FaGithub size={80} title='GitHub'/><span>GitHub </span></div>
-       <div  className={styles.icons}><IoLogoFirebase size={80} title='Firebase'/><span>Firebase</span></div>
-       <div  className={styles.icons}><SiNextdotjs  size={80} title='Nextjs'/><span>Next.js</span></div>
+       <div className={styles.icons}><DiReact size={55} title="React"/><span>React</span></div>
+       <div className={styles.icons}><FaPython size={55} title='Python'/><span>Python</span></div>
+       <div  className={styles.icons}><FaGithub size={55} title='GitHub'/><span>GitHub </span></div>
+       <div  className={styles.icons}><IoLogoFirebase size={55} title='Firebase'/><span>Firebase</span></div>
+       <div  className={styles.icons}><SiNextdotjs  size={55} title='Nextjs'/><span>Next.js</span></div>
       </div>
     </div>
     <InternshipCard />
