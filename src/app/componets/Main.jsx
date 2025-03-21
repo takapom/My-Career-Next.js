@@ -9,7 +9,7 @@ export default function Main(){
                 <li className={styles.property}>Yuki Takagi</li>
                <li className={styles.property}>Web Developer</li>
                <li className={styles.property}>Yamato University</li>
-               <li className={styles.property}>Graduate in 2027.</li>
+               <li className={styles.property}>Expect graduate 2027.</li>
             </ul>    
             </div>
         </div>  
