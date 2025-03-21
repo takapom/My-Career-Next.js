@@ -22,8 +22,8 @@ export default function InternshipCard() {
             </Link>
           </p>
           <p>
-            <Link href="https://www.zyyx.jp/">
-            vlog
+            <Link href="https://blog-site-ehel.vercel.app/blog/1wtrfcr8vagk">
+            blog
             </Link>
           </p>
           </div>
@@ -46,8 +46,8 @@ export default function InternshipCard() {
             </Link>
           </p>
           <p>
-            <Link href="https://www.zyyx.jp/">
-            vlog
+            <Link href="https://blog-site-ehel.vercel.app/blog/32qn4b00rm">
+            blog
             </Link>
           </p>
           </div>

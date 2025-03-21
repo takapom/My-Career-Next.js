@@ -13,7 +13,7 @@ export default function Navbar(){
           <a className="nav-link" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">career</a>
+          <a className="nav-link" href="https://blog-site-ehel.vercel.app/">blog</a>
         </li>
       </ul>
     </div>

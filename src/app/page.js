@@ -15,6 +15,7 @@ import { FaPython } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiNextdotjs } from "react-icons/si";
+import { SiSwift } from "react-icons/si";
 
 
 
@@ -37,6 +38,7 @@ export default function Home(){
        <div  className={styles.icons}><FaGithub size={55} title='GitHub'/><span>GitHub </span></div>
        <div  className={styles.icons}><IoLogoFirebase size={55} title='Firebase'/><span>Firebase</span></div>
        <div  className={styles.icons}><SiNextdotjs  size={55} title='Nextjs'/><span>Next.js</span></div>
+       <div className={styles.icons}><SiSwift size={55} title="Swift" /><span>Swift</span></div>
       </div>
     </div>
     <InternshipCard />
